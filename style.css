@@ -1,0 +1,231 @@
+/* General */
+body {
+  font-family: 'Oswald';
+}
+
+
+hr {
+  margin: 0 auto;
+  width: 100px;
+  height: 2px !important;
+  color: #b79c7d;
+  opacity: 1;
+}
+
+.hr2 {
+  width: 45px;
+  height: 4px !important;
+}
+
+@media (max-width: 768px) {
+  .responsive-br {
+    display: none;
+  }
+}
+
+
+/*Slider Secrion */
+
+.first-slide {
+  background-image: url('/img/slidernila.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  filter: brightness(90%);
+}
+
+@media (max-width: 768px) {
+  .first-slide {
+    height: 40vh;
+  }
+}
+
+.second-slide {
+  background-image: url('/img/slide3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .second-slide {
+    height: 40vh;
+  }
+}
+
+.third-slide {
+  background-image: url('/img/slide2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .third-slide {
+    height: 40vh;
+  }
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 20%;
+}
+
+@media (max-width: 1140px) {
+ .res-caption {
+   display: none;
+ }
+}
+
+@media (max-width: 600px) {
+ .carousel-indicators {
+   display: none;
+ }
+}
+
+@media (max-width: 600px) {
+  .slider-title {
+    font-size: 30pt;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider-title {
+    font-size: 20pt;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-btn {
+    font-size: 8pt;
+    padding: 5px;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 264px) {
+  .slider-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .type-res {
+    font-size: 12pt;
+  }
+  .type-desc-res {
+    font-size: 12pt;
+  }
+}
+
+/* portfolio section */
+img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+/* gallery section */
+
+.nila-one {
+  background-image: url('img/nilaone.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 43vh;
+}
+
+.nila-two {
+  background-image: url('img/nilatwo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 43vh;
+}
+
+.gallery-bg {
+  background-color: #FBF6F0;
+}
+
+.btn-border {
+  border: 2px solid #b79c7d;
+  color: #b79c7d;
+  font-size: 10pt;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .gallery-desc {
+    text-align: justify !important;
+    padding: 20px;
+  }
+}
+
+/* call to action section */
+.cta-bg {
+  background-image: url('img/background-img.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn-border2 {
+  border: 2px solid #b79c7d;
+  color: #b79c7d;
+  font-size: 9pt;
+  letter-spacing: 1px;
+}
+
+/* contact us section */
+.contact-us-bg {
+  background-image: url('img/background-img2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Footer Section */
+.footer-text {
+  color: #b79c7d;
+}
+
+.footer-desc {
+  text-align: justify;
+}
+
+.social {
+  background-color: white;
+  border: 2px solid #b79c7d;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px){
+  .social-wrapper {
+    text-align: center;
+  }
+}
+
+@media (max-width: 250px){
+  .social-wrapper {
+    font-size: 8pt;
+  }
+
+  .social-wrapper .bi {
+    padding: 5px;
+  }
+}
+
+.href {
+  color: unset !important;
+}
+
+
+
+
+
+
+
